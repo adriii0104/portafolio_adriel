@@ -1,0 +1,63 @@
+*{
+    font-family:  "Poppins", sans-serif;
+}
+.row-1{
+    position: relative;
+    margin-top: 350px;
+    top: -100px;
+    left: 00px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.col-12{
+    border-radius: 4pt;
+}
+.navbar-brand {
+    color: #FF5733;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #306998;
+}
+
+.nav-item a:hover {
+    color: #FF5733 !important;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.down-arrow {
+    color: #FF5733;
+    font-size: 24px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.show-element {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Agregar una clase a los elementos que deseas que aparezcan con la animación */
+.animated-content {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Agregar esta clase a los elementos cuando se deseen mostrar */
+.show-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Deslice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5733;
+}
